@@ -8,3 +8,9 @@ function reverse(str) {
 }
 
 console.log(reverse('abc'))
+
+function reverse2(str) {
+  return [...str].reverse().join('')
+}
+
+console.log(reverse2('abc'))
