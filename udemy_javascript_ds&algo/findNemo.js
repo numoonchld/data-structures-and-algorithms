@@ -14,6 +14,6 @@ function findNemo(array) {
   console.log(`Function took ${t1 - t0} ms`)
 }
 
-findNemo(nemo)
-findNemo(everyone)
-findNemo(large)
+findNemo(nemo) //O(n) => Linear
+findNemo(everyone) //O(n) => Linear
+findNemo(large) //O(n) => Linear
